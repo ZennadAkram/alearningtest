@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '/index.dart';
+import '/main.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 
 export 'package:go_router/go_router.dart';
@@ -29,22 +30,78 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
-      errorBuilder: (context, state) => const HomePageWidget(),
+      errorBuilder: (context, state) => const SigninWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => const HomePageWidget(),
+          builder: (context, _) => const SigninWidget(),
         ),
         FFRoute(
-          name: 'HomePage',
-          path: '/homePage',
-          builder: (context, params) => const HomePageWidget(),
+          name: 'student_UI',
+          path: '/studentUI',
+          builder: (context, params) => params.isEmpty
+              ? const NavBarPage(initialPage: 'student_UI')
+              : const StudentUIWidget(),
         ),
         FFRoute(
-          name: 'admin1',
-          path: '/admin1',
-          builder: (context, params) => const Admin1Widget(),
+          name: 'teacher_UI',
+          path: '/teacherUI',
+          builder: (context, params) => const TeacherUIWidget(),
+        ),
+        FFRoute(
+          name: 'student_assignment_details',
+          path: '/studentAssignmentDetails',
+          builder: (context, params) => const StudentAssignmentDetailsWidget(),
+        ),
+        FFRoute(
+          name: 'student_module_assignments',
+          path: '/studentModuleAssignments',
+          builder: (context, params) => const StudentModuleAssignmentsWidget(),
+        ),
+        FFRoute(
+          name: 'teacher_course_assignments',
+          path: '/teacherCourseAssignments',
+          builder: (context, params) => const TeacherCourseAssignmentsWidget(),
+        ),
+        FFRoute(
+          name: 'teacher_assignment_view',
+          path: '/teacherAssignmentView',
+          builder: (context, params) => const TeacherAssignmentViewWidget(),
+        ),
+        FFRoute(
+          name: 'profile',
+          path: '/profile',
+          builder: (context, params) => params.isEmpty
+              ? const NavBarPage(initialPage: 'profile')
+              : const ProfileWidget(),
+        ),
+        FFRoute(
+          name: 'teacherprofile',
+          path: '/teacherprofile',
+          builder: (context, params) => const TeacherprofileWidget(),
+        ),
+        FFRoute(
+          name: 'students_timeplate',
+          path: '/studentsTimeplate',
+          builder: (context, params) => params.isEmpty
+              ? const NavBarPage(initialPage: 'students_timeplate')
+              : const StudentsTimeplateWidget(),
+        ),
+        FFRoute(
+          name: 'admin',
+          path: '/admin',
+          builder: (context, params) => const AdminWidget(),
+        ),
+        FFRoute(
+          name: 'teachertimeplate',
+          path: '/teachertimeplate',
+          builder: (context, params) => const TeachertimeplateWidget(),
+        ),
+        FFRoute(
+          name: 'signin',
+          path: '/signin',
+          builder: (context, params) => const SigninWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

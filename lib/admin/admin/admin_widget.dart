@@ -5,25 +5,25 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/form_field_controller.dart';
 import 'package:flutter/material.dart';
-import 'admin1_model.dart';
-export 'admin1_model.dart';
+import 'admin_model.dart';
+export 'admin_model.dart';
 
-class Admin1Widget extends StatefulWidget {
-  const Admin1Widget({super.key});
+class AdminWidget extends StatefulWidget {
+  const AdminWidget({super.key});
 
   @override
-  State<Admin1Widget> createState() => _Admin1WidgetState();
+  State<AdminWidget> createState() => _AdminWidgetState();
 }
 
-class _Admin1WidgetState extends State<Admin1Widget> {
-  late Admin1Model _model;
+class _AdminWidgetState extends State<AdminWidget> {
+  late AdminModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => Admin1Model());
+    _model = createModel(context, () => AdminModel());
 
     _model.textController1 ??= TextEditingController();
     _model.textFieldFocusNode1 ??= FocusNode();
@@ -66,6 +66,8 @@ class _Admin1WidgetState extends State<Admin1Widget> {
 
     _model.textController14 ??= TextEditingController();
     _model.textFieldFocusNode14 ??= FocusNode();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override
@@ -620,6 +622,7 @@ class _Admin1WidgetState extends State<Admin1Widget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               FlutterFlowIconButton(
+                                                borderColor: Colors.transparent,
                                                 borderRadius: 20.0,
                                                 buttonSize: 40.0,
                                                 fillColor: const Color(0xFFE3F2FD),
@@ -634,6 +637,7 @@ class _Admin1WidgetState extends State<Admin1Widget> {
                                                 },
                                               ),
                                               FlutterFlowIconButton(
+                                                borderColor: Colors.transparent,
                                                 borderRadius: 20.0,
                                                 buttonSize: 40.0,
                                                 fillColor: const Color(0xFFFFEBEE),
@@ -714,6 +718,7 @@ class _Admin1WidgetState extends State<Admin1Widget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               FlutterFlowIconButton(
+                                                borderColor: Colors.transparent,
                                                 borderRadius: 20.0,
                                                 buttonSize: 40.0,
                                                 fillColor: const Color(0xFFE3F2FD),
@@ -728,6 +733,7 @@ class _Admin1WidgetState extends State<Admin1Widget> {
                                                 },
                                               ),
                                               FlutterFlowIconButton(
+                                                borderColor: Colors.transparent,
                                                 borderRadius: 20.0,
                                                 buttonSize: 40.0,
                                                 fillColor: const Color(0xFFFFEBEE),

@@ -4,6 +4,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
+import 'index.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -48,7 +49,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'lernin',
+      title: 'A learning',
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
@@ -65,6 +66,82 @@ class _MyAppState extends State<MyApp> {
       ),
       themeMode: _themeMode,
       routerConfig: _router,
+    );
+  }
+}
+
+class NavBarPage extends StatefulWidget {
+  const NavBarPage({super.key, this.initialPage, this.page});
+
+  final String? initialPage;
+  final Widget? page;
+
+  @override
+  _NavBarPageState createState() => _NavBarPageState();
+}
+
+/// This is the private State class that goes with NavBarPage.
+class _NavBarPageState extends State<NavBarPage> {
+  String _currentPageName = 'student_UI';
+  late Widget? _currentPage;
+
+  @override
+  void initState() {
+    super.initState();
+    _currentPageName = widget.initialPage ?? _currentPageName;
+    _currentPage = widget.page;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final tabs = {
+      'student_UI': const StudentUIWidget(),
+      'profile': const ProfileWidget(),
+      'students_timeplate': const StudentsTimeplateWidget(),
+    };
+    final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
+
+    return Scaffold(
+      body: _currentPage ?? tabs[_currentPageName],
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: currentIndex,
+        onTap: (i) => safeSetState(() {
+          _currentPage = null;
+          _currentPageName = tabs.keys.toList()[i];
+        }),
+        backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
+        selectedItemColor: FlutterFlowTheme.of(context).primary,
+        unselectedItemColor: FlutterFlowTheme.of(context).secondaryText,
+        showSelectedLabels: true,
+        showUnselectedLabels: true,
+        type: BottomNavigationBarType.fixed,
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.space_dashboard_rounded,
+              size: 40.0,
+            ),
+            label: 'Dashboard',
+            tooltip: '',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.person_rounded,
+              size: 40.0,
+            ),
+            label: 'Profile',
+            tooltip: '',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.calendar_today,
+              size: 40.0,
+            ),
+            label: 'Schedule',
+            tooltip: '',
+          )
+        ],
+      ),
     );
   }
 }

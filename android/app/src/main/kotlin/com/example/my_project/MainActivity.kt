@@ -1,4 +1,4 @@
-package com.mycompany.lernin
+package com.mycompany.alearning
 
 import io.flutter.embedding.android.FlutterActivity
 
