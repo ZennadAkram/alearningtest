@@ -8,6 +8,7 @@ import 'signin_model.dart';
 export 'signin_model.dart';
 
 class SigninWidget extends StatefulWidget {
+  /// add logo for students
   const SigninWidget({super.key});
 
   @override
@@ -48,22 +49,6 @@ class _SigninWidgetState extends State<SigninWidget>
     _model.passwordConfirmFocusNode ??= FocusNode();
 
     animationsMap.addAll({
-      'containerOnPageLoadAnimation': AnimationInfo(
-        loop: true,
-        reverse: true,
-        trigger: AnimationTrigger.onPageLoad,
-        applyInitialState: true,
-        effectsBuilder: () => [
-          VisibilityEffect(duration: 490.ms),
-          MoveEffect(
-            curve: Curves.linear,
-            delay: 490.0.ms,
-            duration: 600.0.ms,
-            begin: const Offset(0.0, 0.0),
-            end: const Offset(0.0, 0.0),
-          ),
-        ],
-      ),
       'containerOnActionTriggerAnimation': AnimationInfo(
         trigger: AnimationTrigger.onActionTrigger,
         applyInitialState: true,
@@ -75,6 +60,27 @@ class _SigninWidgetState extends State<SigninWidget>
             duration: 600.0.ms,
             begin: 0.0,
             end: 1.0,
+          ),
+        ],
+      ),
+      'containerOnPageLoadAnimation': AnimationInfo(
+        loop: true,
+        trigger: AnimationTrigger.onPageLoad,
+        applyInitialState: true,
+        effectsBuilder: () => [
+          ScaleEffect(
+            curve: Curves.easeInOut,
+            delay: 0.0.ms,
+            duration: 620.0.ms,
+            begin: const Offset(3.0, 3.0),
+            end: const Offset(3.0, 3.0),
+          ),
+          ScaleEffect(
+            curve: Curves.linear,
+            delay: 0.0.ms,
+            duration: 620.0.ms,
+            begin: const Offset(1.0, 1.0),
+            end: const Offset(1.0, 1.0),
           ),
         ],
       ),
@@ -226,11 +232,45 @@ class _SigninWidgetState extends State<SigninWidget>
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Container(
+                        decoration: const BoxDecoration(),
+                        child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Icon(
+                                Icons.school,
+                                color: FlutterFlowTheme.of(context).info,
+                                size: 90.0,
+                              ),
+                              Text(
+                                FFLocalizations.of(context).getText(
+                                  'g6tqq6v7' /* A Learning */,
+                                ),
+                                style: FlutterFlowTheme.of(context)
+                                    .titleSmall
+                                    .override(
+                                      fontFamily: 'Inter Tight',
+                                      color: FlutterFlowTheme.of(context).info,
+                                      fontSize: 25.0,
+                                      letterSpacing: 0.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
                       Padding(
                         padding: const EdgeInsetsDirectional.fromSTEB(
                             16.0, 0.0, 16.0, 0.0),
                         child: Text(
-                          'Welcome Back',
+                          FFLocalizations.of(context).getText(
+                            '7a7yxfhb' /* Welcome Back */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .headlineMedium
                               .override(
@@ -246,7 +286,9 @@ class _SigninWidgetState extends State<SigninWidget>
                         padding: const EdgeInsetsDirectional.fromSTEB(
                             16.0, 0.0, 16.0, 0.0),
                         child: Text(
-                          'Sign in to continue',
+                          FFLocalizations.of(context).getText(
+                            'q1npcc7i' /* Sign in to continue */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyLarge.override(
                                     fontFamily: 'Inter',
@@ -313,7 +355,9 @@ class _SigninWidgetState extends State<SigninWidget>
                                     padding: const EdgeInsetsDirectional.fromSTEB(
                                         16.0, 0.0, 0.0, 0.0),
                                     child: Text(
-                                      'A learning',
+                                      FFLocalizations.of(context).getText(
+                                        'o96lx0lg' /* A learning */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .headlineMedium
                                           .override(
@@ -374,12 +418,18 @@ class _SigninWidgetState extends State<SigninWidget>
                                     indicatorWeight: 4.0,
                                     padding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 12.0, 16.0, 12.0),
-                                    tabs: const [
+                                    tabs: [
                                       Tab(
-                                        text: 'Sign In',
+                                        text:
+                                            FFLocalizations.of(context).getText(
+                                          '1ni2dhme' /* Sign In */,
+                                        ),
                                       ),
                                       Tab(
-                                        text: 'Sign Up',
+                                        text:
+                                            FFLocalizations.of(context).getText(
+                                          '9h1njvyr' /* Sign Up */,
+                                        ),
                                       ),
                                     ],
                                     controller: _model.tabBarController,
@@ -409,7 +459,10 @@ class _SigninWidgetState extends State<SigninWidget>
                                                     .fromSTEB(
                                                         0.0, 12.0, 0.0, 24.0),
                                                 child: Text(
-                                                  'Let\'s get started by filling out the form below.',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '8fzblobf' /* Let's get started by filling o... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelMedium
@@ -442,7 +495,12 @@ class _SigninWidgetState extends State<SigninWidget>
                                                     ],
                                                     obscureText: false,
                                                     decoration: InputDecoration(
-                                                      labelText: 'Email',
+                                                      labelText:
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                        'fme1ipbn' /* Email */,
+                                                      ),
                                                       labelStyle:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -549,7 +607,12 @@ class _SigninWidgetState extends State<SigninWidget>
                                                     obscureText: !_model
                                                         .passwordVisibility,
                                                     decoration: InputDecoration(
-                                                      labelText: 'Password',
+                                                      labelText:
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                        'cws2e3td' /* Password */,
+                                                      ),
                                                       labelStyle:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -670,7 +733,11 @@ class _SigninWidgetState extends State<SigninWidget>
                                                       context.pushNamed(
                                                           'student_UI');
                                                     },
-                                                    text: 'Sign In',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'aekyhwtj' /* Sign In */,
+                                                    ),
                                                     options: FFButtonOptions(
                                                       width: 230.0,
                                                       height: 52.0,
@@ -731,7 +798,11 @@ class _SigninWidgetState extends State<SigninWidget>
                                                       print(
                                                           'Button pressed ...');
                                                     },
-                                                    text: 'Forgot Password',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'mt3qfwdz' /* Forgot Password */,
+                                                    ),
                                                     options: FFButtonOptions(
                                                       width: 230.0,
                                                       height: 44.0,
@@ -800,7 +871,10 @@ class _SigninWidgetState extends State<SigninWidget>
                                                     .fromSTEB(
                                                         0.0, 12.0, 0.0, 24.0),
                                                 child: Text(
-                                                  'Let\'s get started by filling out the form below.',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'napjibv0' /* Let's get started by filling o... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelMedium
@@ -833,7 +907,12 @@ class _SigninWidgetState extends State<SigninWidget>
                                                     ],
                                                     obscureText: false,
                                                     decoration: InputDecoration(
-                                                      labelText: 'Email',
+                                                      labelText:
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                        'rd2eqai2' /* Email */,
+                                                      ),
                                                       labelStyle:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -940,7 +1019,12 @@ class _SigninWidgetState extends State<SigninWidget>
                                                     obscureText: !_model
                                                         .passwordCreateVisibility,
                                                     decoration: InputDecoration(
-                                                      labelText: 'Password',
+                                                      labelText:
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                        'zhufscxp' /* Password */,
+                                                      ),
                                                       labelStyle:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1068,7 +1152,11 @@ class _SigninWidgetState extends State<SigninWidget>
                                                         .passwordConfirmVisibility,
                                                     decoration: InputDecoration(
                                                       labelText:
-                                                          'Confirm Password',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                        '14jcn64i' /* Confirm Password */,
+                                                      ),
                                                       labelStyle:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -1225,7 +1313,11 @@ class _SigninWidgetState extends State<SigninWidget>
                                                           'null',
                                                           context.mounted);
                                                     },
-                                                    text: 'Create Account',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'spd2iemm' /* Create Account */,
+                                                    ),
                                                     options: FFButtonOptions(
                                                       width: 230.0,
                                                       height: 52.0,

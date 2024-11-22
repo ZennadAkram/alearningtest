@@ -66,7 +66,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Practical Work Assignments',
+                          FFLocalizations.of(context).getText(
+                            '792bjbux' /* Practical Work Assignments */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .headlineMedium
                               .override(
@@ -77,7 +79,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                               ),
                         ),
                         Text(
-                          'Your hands-on learning tasks',
+                          FFLocalizations.of(context).getText(
+                            'iup80skz' /* Your hands-on learning tasks */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyLarge.override(
                                     fontFamily: 'Inter',
@@ -115,7 +119,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                'My Courses',
+                                FFLocalizations.of(context).getText(
+                                  'tnz6f9li' /* My Courses */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
@@ -146,7 +152,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Introduction to Computer Science',
+                                          FFLocalizations.of(context).getText(
+                                            'z1r4rdnz' /* Introduction to Computer Scien... */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
@@ -158,7 +166,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                               ),
                                         ),
                                         Text(
-                                          'CS101 • Prof. Johnson',
+                                          FFLocalizations.of(context).getText(
+                                            '180k2pla' /* CS101 • Prof. Johnson */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
@@ -201,7 +211,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Calculus I',
+                                        FFLocalizations.of(context).getText(
+                                          'biapk03d' /* Calculus I */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
@@ -213,7 +225,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                             ),
                                       ),
                                       Text(
-                                        'MATH201 • Prof. Smith',
+                                        FFLocalizations.of(context).getText(
+                                          '4arh47lx' /* MATH201 • Prof. Smith */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
                                             .override(
@@ -254,7 +268,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'World History',
+                                        FFLocalizations.of(context).getText(
+                                          '2nwg5jte' /* World History */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
@@ -266,7 +282,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                             ),
                                       ),
                                       Text(
-                                        'HIST101 • Prof. Davis',
+                                        FFLocalizations.of(context).getText(
+                                          'dz22qki2' /* HIST101 • Prof. Davis */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
                                             .override(
@@ -321,7 +339,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                'Recent Assignments',
+                                FFLocalizations.of(context).getText(
+                                  'ecwi025i' /* Recent Assignments */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
@@ -353,7 +373,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                         mainAxisSize: MainAxisSize.min,
                                         children: [
                                           Text(
-                                            'Lab 1: Introduction to Python',
+                                            FFLocalizations.of(context).getText(
+                                              'jh10oo8q' /* Lab 1: Introduction to Python */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .titleMedium
                                                 .override(
@@ -366,7 +388,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            'Learn the basics of Python programming through hands-on exercises.',
+                                            FFLocalizations.of(context).getText(
+                                              'lb31ufvl' /* Learn the basics of Python pro... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -378,7 +402,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            'Due: May 15, 2024',
+                                            FFLocalizations.of(context).getText(
+                                              '12mwm8lo' /* Due: May 15, 2024 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
@@ -394,7 +420,10 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                               context.pushNamed(
                                                   'student_assignment_details');
                                             },
-                                            text: 'View Details',
+                                            text: FFLocalizations.of(context)
+                                                .getText(
+                                              'hvzjku4r' /* View Details */,
+                                            ),
                                             options: FFButtonOptions(
                                               width: 120.0,
                                               height: 40.0,
@@ -437,7 +466,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                         mainAxisSize: MainAxisSize.min,
                                         children: [
                                           Text(
-                                            'Lab 2: Data Structures in C++',
+                                            FFLocalizations.of(context).getText(
+                                              'onr22yhg' /* Lab 2: Data Structures in C++ */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .titleMedium
                                                 .override(
@@ -450,7 +481,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            'Implement and analyze various data structures using C++.',
+                                            FFLocalizations.of(context).getText(
+                                              'i6ae0d27' /* Implement and analyze various ... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -462,7 +495,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            'Due: May 18, 2024',
+                                            FFLocalizations.of(context).getText(
+                                              '6f6sdipq' /* Due: May 18, 2024 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
@@ -477,7 +512,10 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                             onPressed: () {
                                               print('Button pressed ...');
                                             },
-                                            text: 'View Details',
+                                            text: FFLocalizations.of(context)
+                                                .getText(
+                                              'lgfp7595' /* View Details */,
+                                            ),
                                             options: FFButtonOptions(
                                               width: 120.0,
                                               height: 40.0,
@@ -520,7 +558,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                         mainAxisSize: MainAxisSize.min,
                                         children: [
                                           Text(
-                                            'Lab 3: Web Development Basics',
+                                            FFLocalizations.of(context).getText(
+                                              'ajky9xbf' /* Lab 3: Web Development Basics */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .titleMedium
                                                 .override(
@@ -533,7 +573,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            'Create a simple website using HTML, CSS, and JavaScript.',
+                                            FFLocalizations.of(context).getText(
+                                              'w5hphghu' /* Create a simple website using ... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -545,7 +587,9 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            'Due: May 20, 2023',
+                                            FFLocalizations.of(context).getText(
+                                              '4urpqc1w' /* Due: May 20, 2023 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
@@ -560,7 +604,10 @@ class _StudentUIWidgetState extends State<StudentUIWidget> {
                                             onPressed: () {
                                               print('Button pressed ...');
                                             },
-                                            text: 'View Details',
+                                            text: FFLocalizations.of(context)
+                                                .getText(
+                                              '5awswk4e' /* View Details */,
+                                            ),
                                             options: FFButtonOptions(
                                               width: 120.0,
                                               height: 40.0,

@@ -71,7 +71,9 @@ class _StudentAssignmentDetailsWidgetState
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Text(
-                            'Assignment Details',
+                            FFLocalizations.of(context).getText(
+                              '36rw90qn' /* Assignment Details */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .headlineSmall
                                 .override(
@@ -83,7 +85,9 @@ class _StudentAssignmentDetailsWidgetState
                                 ),
                           ),
                           Text(
-                            'Lab 1: Introduction to Python',
+                            FFLocalizations.of(context).getText(
+                              '0j3g2wlq' /* Lab 1: Introduction to Python */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .titleMedium
                                 .override(
@@ -108,7 +112,9 @@ class _StudentAssignmentDetailsWidgetState
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Text(
-                                    'Objectives:',
+                                    FFLocalizations.of(context).getText(
+                                      'eizg9j6x' /* Objectives: */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -120,7 +126,9 @@ class _StudentAssignmentDetailsWidgetState
                                         ),
                                   ),
                                   Text(
-                                    '• Understand basic Python syntax\n• Learn about variables and data types\n• Implement simple algorithms',
+                                    FFLocalizations.of(context).getText(
+                                      'uktw4c9a' /* • Understand basic Python synt... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -148,7 +156,9 @@ class _StudentAssignmentDetailsWidgetState
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Text(
-                                    'Materials Needed:',
+                                    FFLocalizations.of(context).getText(
+                                      '5h4tkh75' /* Materials Needed: */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -160,7 +170,9 @@ class _StudentAssignmentDetailsWidgetState
                                         ),
                                   ),
                                   Text(
-                                    '• Python 3.x installed on your computer\n• A text editor or IDE (e.g., PyCharm, VS Code)\n• Access to online Python documentation',
+                                    FFLocalizations.of(context).getText(
+                                      '6nsxx84o' /* • Python 3.x installed on your... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -188,7 +200,9 @@ class _StudentAssignmentDetailsWidgetState
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Text(
-                                    'Steps:',
+                                    FFLocalizations.of(context).getText(
+                                      'qzyrtuvn' /* Steps: */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -200,7 +214,9 @@ class _StudentAssignmentDetailsWidgetState
                                         ),
                                   ),
                                   Text(
-                                    '1. Set up your Python environment\n2. Write a \'Hello, World!\' program\n3. Implement a simple calculator\n4. Create a program to find prime numbers\n5. Submit your code and a brief report',
+                                    FFLocalizations.of(context).getText(
+                                      '9s00p8kq' /* 1. Set up your Python environm... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -240,7 +256,10 @@ class _StudentAssignmentDetailsWidgetState
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Assignment: Introduction to Python',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'xkz4fotz' /* Assignment: Introduction to Py... */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .headlineSmall
@@ -252,7 +271,10 @@ class _StudentAssignmentDetailsWidgetState
                                                       ),
                                             ),
                                             Text(
-                                              'Due: Nov 20, 2024',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'a2230aqj' /* Due: Nov 20, 2024 */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -299,7 +321,10 @@ class _StudentAssignmentDetailsWidgetState
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Intro_to_python_Assignment.pdf',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'wb08thry' /* Intro_to_python_Assignment.pdf */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -309,7 +334,10 @@ class _StudentAssignmentDetailsWidgetState
                                                         ),
                                                   ),
                                                   Text(
-                                                    '2.3 MB',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'obk4eujz' /* 2.3 MB */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelSmall
@@ -328,7 +356,10 @@ class _StudentAssignmentDetailsWidgetState
                                               onPressed: () {
                                                 print('Button pressed ...');
                                               },
-                                              text: 'View',
+                                              text: FFLocalizations.of(context)
+                                                  .getText(
+                                                'puuvqtg0' /* View */,
+                                              ),
                                               options: FFButtonOptions(
                                                 width: 100.0,
                                                 height: 36.0,
@@ -366,7 +397,9 @@ class _StudentAssignmentDetailsWidgetState
                                     padding: const EdgeInsetsDirectional.fromSTEB(
                                         12.0, 0.0, 12.0, 0.0),
                                     child: Text(
-                                      'Helpful Resources:',
+                                      FFLocalizations.of(context).getText(
+                                        'kcxse0ce' /* Helpful Resources: */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .titleSmall
                                           .override(
@@ -404,7 +437,10 @@ class _StudentAssignmentDetailsWidgetState
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Video Tutorial: How to install python3',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'ky88k266' /* Video Tutorial: How to install... */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -414,7 +450,10 @@ class _StudentAssignmentDetailsWidgetState
                                                         ),
                                                   ),
                                                   Text(
-                                                    'YouTube - MathMaster101',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'fy7ak5nv' /* YouTube - MathMaster101 */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelSmall
@@ -481,7 +520,10 @@ class _StudentAssignmentDetailsWidgetState
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Textbook: Python Faundamentals',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '9h84jxk4' /* Textbook: Python Faundamentals */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -491,7 +533,10 @@ class _StudentAssignmentDetailsWidgetState
                                                         ),
                                                   ),
                                                   Text(
-                                                    'Chapter 7, Pages 342-350',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'bqs1r0pi' /* Chapter 7, Pages 342-350 */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelSmall
@@ -541,7 +586,9 @@ class _StudentAssignmentDetailsWidgetState
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        'Submission Form',
+                                        FFLocalizations.of(context).getText(
+                                          'm6jhmcn0' /* Submission Form */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
@@ -557,9 +604,23 @@ class _StudentAssignmentDetailsWidgetState
                                         controller:
                                             _model.dropDownValueController ??=
                                                 FormFieldController<String>(
-                                          _model.dropDownValue ??= 'All',
+                                          _model.dropDownValue ??=
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                            'ey861uun' /* All */,
+                                          ),
                                         ),
-                                        options: const ['All', 'Step1', 'Step2'],
+                                        options: [
+                                          FFLocalizations.of(context).getText(
+                                            'ka83v0cg' /* All */,
+                                          ),
+                                          FFLocalizations.of(context).getText(
+                                            'wi5uo4j7' /* Step1 */,
+                                          ),
+                                          FFLocalizations.of(context).getText(
+                                            '1idbxkhl' /* Step2 */,
+                                          )
+                                        ],
                                         onChanged: (val) => safeSetState(
                                             () => _model.dropDownValue = val),
                                         width: 74.0,
@@ -574,7 +635,10 @@ class _StudentAssignmentDetailsWidgetState
                                               fontSize: 16.0,
                                               letterSpacing: 0.0,
                                             ),
-                                        hintText: 'Steps',
+                                        hintText:
+                                            FFLocalizations.of(context).getText(
+                                          '74cqako0' /* Steps */,
+                                        ),
                                         icon: Icon(
                                           Icons.keyboard_arrow_down_rounded,
                                           color: FlutterFlowTheme.of(context)
@@ -602,7 +666,10 @@ class _StudentAssignmentDetailsWidgetState
                                     autofocus: false,
                                     obscureText: false,
                                     decoration: InputDecoration(
-                                      labelText: 'Solution',
+                                      labelText:
+                                          FFLocalizations.of(context).getText(
+                                        '9uytpjo5' /* Solution */,
+                                      ),
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -669,7 +736,10 @@ class _StudentAssignmentDetailsWidgetState
                                         onPressed: () {
                                           print('Button pressed ...');
                                         },
-                                        text: 'Attach Files',
+                                        text:
+                                            FFLocalizations.of(context).getText(
+                                          'hpbhpj9c' /* Attach Files */,
+                                        ),
                                         options: FFButtonOptions(
                                           width: 120.0,
                                           height: 40.0,
@@ -698,7 +768,10 @@ class _StudentAssignmentDetailsWidgetState
                                         onPressed: () {
                                           print('Button pressed ...');
                                         },
-                                        text: 'Submit',
+                                        text:
+                                            FFLocalizations.of(context).getText(
+                                          '8pzvlb5a' /* Submit */,
+                                        ),
                                         options: FFButtonOptions(
                                           width: 120.0,
                                           height: 40.0,
@@ -743,7 +816,9 @@ class _StudentAssignmentDetailsWidgetState
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Text(
-                                    'Teacher Feedback',
+                                    FFLocalizations.of(context).getText(
+                                      'cwuqe3zb' /* Teacher Feedback */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -755,7 +830,9 @@ class _StudentAssignmentDetailsWidgetState
                                         ),
                                   ),
                                   Text(
-                                    'Great work on your Python introduction lab! Your code is well-structured and shows a good understanding of basic concepts. Here are some specific comments:',
+                                    FFLocalizations.of(context).getText(
+                                      'hwjee25f' /* Great work on your Python intr... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -766,7 +843,9 @@ class _StudentAssignmentDetailsWidgetState
                                         ),
                                   ),
                                   Text(
-                                    '• Excellent use of functions in your calculator program\n• Consider adding error handling for invalid inputs\n• Your prime number algorithm is efficient, but could be optimized further',
+                                    FFLocalizations.of(context).getText(
+                                      'qdvohsl2' /* • Excellent use of functions i... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -777,7 +856,9 @@ class _StudentAssignmentDetailsWidgetState
                                         ),
                                   ),
                                   Text(
-                                    'Overall Score: 90/100',
+                                    FFLocalizations.of(context).getText(
+                                      'uuttcp5z' /* Overall Score: 90100 */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -823,7 +904,9 @@ class _StudentAssignmentDetailsWidgetState
                                 size: 28.0,
                               ),
                               Text(
-                                'Dashboard',
+                                FFLocalizations.of(context).getText(
+                                  'mzcnuptq' /* Dashboard */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -846,7 +929,9 @@ class _StudentAssignmentDetailsWidgetState
                                 size: 28.0,
                               ),
                               Text(
-                                'Profile',
+                                FFLocalizations.of(context).getText(
+                                  '15x9zdgb' /* Profile */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(

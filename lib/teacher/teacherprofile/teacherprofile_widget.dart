@@ -69,7 +69,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Teacher Profile',
+                          FFLocalizations.of(context).getText(
+                            'jjitezab' /* Teacher Profile */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .headlineMedium
                               .override(
@@ -80,7 +82,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                               ),
                         ),
                         Text(
-                          'View and manage your professional information',
+                          FFLocalizations.of(context).getText(
+                            'si79p4ll' /* View and manage your professio... */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyLarge.override(
                                     fontFamily: 'Inter',
@@ -142,7 +146,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                 ),
                               ),
                               Text(
-                                'Dr. Emily Parker',
+                                FFLocalizations.of(context).getText(
+                                  '5is8pdki' /* Dr. Emily Parker */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
@@ -154,7 +160,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                     ),
                               ),
                               Text(
-                                'Mathematics Professor',
+                                FFLocalizations.of(context).getText(
+                                  'uio09fhl' /* Mathematics Professor */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -177,7 +185,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                       padding: const EdgeInsetsDirectional.fromSTEB(
                                           8.0, 16.0, 8.0, 16.0),
                                       child: Text(
-                                        '15 Years Experience',
+                                        FFLocalizations.of(context).getText(
+                                          'b1wc4gpn' /* 15 Years Experience */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -197,7 +207,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                       padding: const EdgeInsetsDirectional.fromSTEB(
                                           8.0, 16.0, 8.0, 16.0),
                                       child: Text(
-                                        'PhD in Mathematics',
+                                        FFLocalizations.of(context).getText(
+                                          'l2mn46mu' /* PhD in Mathematics */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -235,7 +247,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                'Professional Information',
+                                FFLocalizations.of(context).getText(
+                                  'jy86ja6v' /* Professional Information */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
@@ -252,7 +266,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Email',
+                                    FFLocalizations.of(context).getText(
+                                      'zns5n01k' /* Email */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -263,7 +279,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'emily.parker@university.edu',
+                                    FFLocalizations.of(context).getText(
+                                      'ydkdrr6c' /* emily.parker@university.edu */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -281,7 +299,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Department',
+                                    FFLocalizations.of(context).getText(
+                                      'u920pe0g' /* Department */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -292,7 +312,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'Mathematics',
+                                    FFLocalizations.of(context).getText(
+                                      'haox6jmh' /* Mathematics */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -310,7 +332,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Office',
+                                    FFLocalizations.of(context).getText(
+                                      'ip6dh5bd' /* Office */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -321,7 +345,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'Science Building, Room 305',
+                                    FFLocalizations.of(context).getText(
+                                      'ohjqnidj' /* Science Building, Room 305 */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -339,7 +365,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Office Hours',
+                                    FFLocalizations.of(context).getText(
+                                      'ug2xn43g' /* Office Hours */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -350,7 +378,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'Mon, Wed: 2-4 PM',
+                                    FFLocalizations.of(context).getText(
+                                      '99dzsyli' /* Mon, Wed: 2-4 PM */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -387,7 +417,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                'Courses Taught',
+                                FFLocalizations.of(context).getText(
+                                  'y5k4hdak' /* Courses Taught */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
@@ -412,7 +444,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        'Advanced Calculus',
+                                        FFLocalizations.of(context).getText(
+                                          'il70vat3' /* Advanced Calculus */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -447,7 +481,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        'Linear Algebra',
+                                        FFLocalizations.of(context).getText(
+                                          'p7co1dsc' /* Linear Algebra */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -482,7 +518,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        'Number Theory',
+                                        FFLocalizations.of(context).getText(
+                                          'ufqcoiol' /* Number Theory */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -528,7 +566,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                'Profile Settings',
+                                FFLocalizations.of(context).getText(
+                                  'mqnqhonc' /* Profile Settings */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
@@ -545,7 +585,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Public Profile',
+                                    FFLocalizations.of(context).getText(
+                                      '3uc6oo1m' /* Public Profile */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -579,7 +621,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Email Notifications',
+                                    FFLocalizations.of(context).getText(
+                                      'j73hbx7u' /* Email Notifications */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -613,7 +657,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Dark Mode',
+                                    FFLocalizations.of(context).getText(
+                                      '95b1x133' /* Dark Mode */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -650,7 +696,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                       onPressed: () {
                         print('Button pressed ...');
                       },
-                      text: 'Edit Profile',
+                      text: FFLocalizations.of(context).getText(
+                        'grljn5ie' /* Edit Profile */,
+                      ),
                       options: FFButtonOptions(
                         width: MediaQuery.sizeOf(context).width * 1.0,
                         height: 50.0,
@@ -701,7 +749,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                 size: 28.0,
                               ),
                               Text(
-                                'Dashboard',
+                                FFLocalizations.of(context).getText(
+                                  'lc61n82p' /* Dashboard */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -723,7 +773,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                 size: 28.0,
                               ),
                               Text(
-                                'Profile',
+                                FFLocalizations.of(context).getText(
+                                  'g7p2v12o' /* Profile */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -746,7 +798,9 @@ class _TeacherprofileWidgetState extends State<TeacherprofileWidget> {
                                 size: 28.0,
                               ),
                               Text(
-                                'Schedule',
+                                FFLocalizations.of(context).getText(
+                                  'g48guer6' /* Schedule */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(

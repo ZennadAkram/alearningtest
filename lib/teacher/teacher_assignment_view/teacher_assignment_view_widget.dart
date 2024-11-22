@@ -80,7 +80,9 @@ class _TeacherAssignmentViewWidgetState
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'John Doe',
+                            FFLocalizations.of(context).getText(
+                              'v8airum1' /* John Doe */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .headlineMedium
                                 .override(
@@ -91,7 +93,9 @@ class _TeacherAssignmentViewWidgetState
                                 ),
                           ),
                           Text(
-                            'Intro to Programming PW1',
+                            FFLocalizations.of(context).getText(
+                              '18w21i53' /* Intro to Programming PW1 */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyLarge.override(
                                       fontFamily: 'Inter',
@@ -134,7 +138,9 @@ class _TeacherAssignmentViewWidgetState
                                     padding: const EdgeInsetsDirectional.fromSTEB(
                                         12.0, 0.0, 12.0, 0.0),
                                     child: Text(
-                                      'Student Solution',
+                                      FFLocalizations.of(context).getText(
+                                        't2uj8wqw' /* Student Solution */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
@@ -162,7 +168,10 @@ class _TeacherAssignmentViewWidgetState
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Solution',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'wqn5w6mq' /* Solution */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -174,7 +183,10 @@ class _TeacherAssignmentViewWidgetState
                                                       ),
                                             ),
                                             Text(
-                                              'My code shows how inheritance works in Python.\n\n1. There is a base class called `Animal` with a method `speak()` that returns `\"Some generic sound\"`.\n2. Then there is a subclass `Dog` that inherits from `Animal`.\n3. `Dog` has its own `speak()` method, which overrides the `speak()` method of `Animal`.\n4. Instead of `\"Some generic sound\"`, `Dog`’s `speak()` method returns `\"Bark\"`.\n5. This is called **method overriding**, where the subclass provides a new version of a method.\n6. If we create an object of `Dog` and call `speak()`, it will return `\"Bark\"`.\n7. This demonstrates how inheritance and overriding work in Python.',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'o5kd1nrc' /* My code shows how inheritance ... */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodySmall
@@ -207,7 +219,10 @@ class _TeacherAssignmentViewWidgetState
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Attached Files:',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'al8y8l4b' /* Attached Files: */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -229,7 +244,10 @@ class _TeacherAssignmentViewWidgetState
                                                   size: 20.0,
                                                 ),
                                                 Text(
-                                                  'solution.pdf',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'y2d3q0r7' /* solution.pdf */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodySmall
@@ -251,7 +269,10 @@ class _TeacherAssignmentViewWidgetState
                                                   size: 20.0,
                                                 ),
                                                 Text(
-                                                  'code_snippet.py',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'wv7p2578' /* code_snippet.py */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodySmall
@@ -273,7 +294,10 @@ class _TeacherAssignmentViewWidgetState
                                                   size: 20.0,
                                                 ),
                                                 Text(
-                                                  'diagram.jpg',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'lbip6jlp' /* diagram.jpg */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodySmall
@@ -328,7 +352,9 @@ class _TeacherAssignmentViewWidgetState
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text(
-                                      'Send Feedback',
+                                      FFLocalizations.of(context).getText(
+                                        'ax5uxt2s' /* Send Feedback */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
@@ -359,7 +385,11 @@ class _TeacherAssignmentViewWidgetState
                                           autofocus: false,
                                           obscureText: false,
                                           decoration: InputDecoration(
-                                            labelText: 'Feedback',
+                                            labelText:
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                              'm6biqb3b' /* Feedback */,
+                                            ),
                                             labelStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyMedium
@@ -434,7 +464,11 @@ class _TeacherAssignmentViewWidgetState
                                                 onPressed: () {
                                                   print('Button pressed ...');
                                                 },
-                                                text: 'Grade Solution',
+                                                text:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  'ivs865m1' /* Grade Solution */,
+                                                ),
                                                 options: FFButtonOptions(
                                                   width: 120.0,
                                                   height: 40.0,
@@ -470,7 +504,10 @@ class _TeacherAssignmentViewWidgetState
                                               onPressed: () {
                                                 print('Button pressed ...');
                                               },
-                                              text: 'Send',
+                                              text: FFLocalizations.of(context)
+                                                  .getText(
+                                                '0oraoxd4' /* Send */,
+                                              ),
                                               options: FFButtonOptions(
                                                 width: 120.0,
                                                 height: 40.0,
@@ -537,7 +574,9 @@ class _TeacherAssignmentViewWidgetState
                                 size: 28.0,
                               ),
                               Text(
-                                'Dashboard',
+                                FFLocalizations.of(context).getText(
+                                  'f1s3fkb1' /* Dashboard */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -560,7 +599,9 @@ class _TeacherAssignmentViewWidgetState
                                 size: 28.0,
                               ),
                               Text(
-                                'Profile',
+                                FFLocalizations.of(context).getText(
+                                  's5bs1itf' /* Profile */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(

@@ -70,7 +70,9 @@ class _StudentModuleAssignmentsWidgetState
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Introduction to Computer Science assignments',
+                            FFLocalizations.of(context).getText(
+                              'guw737ax' /* Introduction to Computer Scien... */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .headlineMedium
                                 .override(
@@ -81,7 +83,9 @@ class _StudentModuleAssignmentsWidgetState
                                 ),
                           ),
                           Text(
-                            'Assignments',
+                            FFLocalizations.of(context).getText(
+                              'sxoyachw' /* Assignments */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -132,7 +136,9 @@ class _StudentModuleAssignmentsWidgetState
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Text(
-                                    'Available Assignments',
+                                    FFLocalizations.of(context).getText(
+                                      'y6zah8rv' /* Available Assignments */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
@@ -167,7 +173,10 @@ class _StudentModuleAssignmentsWidgetState
                                             mainAxisSize: MainAxisSize.min,
                                             children: [
                                               Text(
-                                                'Lab 1: Introduction to Python',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'p78cuzwf' /* Lab 1: Introduction to Python */,
+                                                ),
                                                 style: FlutterFlowTheme.of(
                                                         context)
                                                     .titleMedium
@@ -183,7 +192,10 @@ class _StudentModuleAssignmentsWidgetState
                                                     ),
                                               ),
                                               Text(
-                                                'Learn the basics of Python programming through hands-on exercises.',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '39kpjuyg' /* Learn the basics of Python pro... */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -196,7 +208,10 @@ class _StudentModuleAssignmentsWidgetState
                                                         ),
                                               ),
                                               Text(
-                                                'Due: Nov 15, 2024',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'e2p27kld' /* Due: Nov 15, 2024 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -213,7 +228,11 @@ class _StudentModuleAssignmentsWidgetState
                                                   context.pushNamed(
                                                       'student_assignment_details');
                                                 },
-                                                text: 'View Details',
+                                                text:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  '0bmjek8d' /* View Details */,
+                                                ),
                                                 options: FFButtonOptions(
                                                   width: 120.0,
                                                   height: 40.0,
@@ -264,7 +283,10 @@ class _StudentModuleAssignmentsWidgetState
                                             mainAxisSize: MainAxisSize.min,
                                             children: [
                                               Text(
-                                                'Lab 2: Data Structures in C++',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '27u82k42' /* Lab 2: Data Structures in C++ */,
+                                                ),
                                                 style: FlutterFlowTheme.of(
                                                         context)
                                                     .titleMedium
@@ -280,7 +302,10 @@ class _StudentModuleAssignmentsWidgetState
                                                     ),
                                               ),
                                               Text(
-                                                'Implement and analyze various data structures using C++.',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'c8dm0g8n' /* Implement and analyze various ... */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -293,7 +318,10 @@ class _StudentModuleAssignmentsWidgetState
                                                         ),
                                               ),
                                               Text(
-                                                'Due: Nov 18, 2024',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'c6t2in4b' /* Due: Nov 18, 2024 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -309,7 +337,11 @@ class _StudentModuleAssignmentsWidgetState
                                                 onPressed: () {
                                                   print('Button pressed ...');
                                                 },
-                                                text: 'View Details',
+                                                text:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  'l3lzqv55' /* View Details */,
+                                                ),
                                                 options: FFButtonOptions(
                                                   width: 120.0,
                                                   height: 40.0,
@@ -360,7 +392,10 @@ class _StudentModuleAssignmentsWidgetState
                                             mainAxisSize: MainAxisSize.min,
                                             children: [
                                               Text(
-                                                'Lab 3: Web Development Basics',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'vvke9ojx' /* Lab 3: Web Development Basics */,
+                                                ),
                                                 style: FlutterFlowTheme.of(
                                                         context)
                                                     .titleMedium
@@ -376,7 +411,10 @@ class _StudentModuleAssignmentsWidgetState
                                                     ),
                                               ),
                                               Text(
-                                                'Create a simple website using HTML, CSS, and JavaScript.',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '2fiswqx3' /* Create a simple website using ... */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -389,7 +427,10 @@ class _StudentModuleAssignmentsWidgetState
                                                         ),
                                               ),
                                               Text(
-                                                'Due: Nov 20, 2023',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '0s122gdc' /* Due: Nov 20, 2023 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -405,7 +446,11 @@ class _StudentModuleAssignmentsWidgetState
                                                 onPressed: () {
                                                   print('Button pressed ...');
                                                 },
-                                                text: 'View Details',
+                                                text:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  '17cqycvk' /* View Details */,
+                                                ),
                                                 options: FFButtonOptions(
                                                   width: 120.0,
                                                   height: 40.0,
@@ -456,7 +501,10 @@ class _StudentModuleAssignmentsWidgetState
                                             mainAxisSize: MainAxisSize.min,
                                             children: [
                                               Text(
-                                                'Lab 3: Web Development Basics',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'w83qzhf8' /* Lab 3: Web Development Basics */,
+                                                ),
                                                 style: FlutterFlowTheme.of(
                                                         context)
                                                     .titleMedium
@@ -472,7 +520,10 @@ class _StudentModuleAssignmentsWidgetState
                                                     ),
                                               ),
                                               Text(
-                                                'Create a simple website using HTML, CSS, and JavaScript.',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'ly8sudnu' /* Create a simple website using ... */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -485,7 +536,10 @@ class _StudentModuleAssignmentsWidgetState
                                                         ),
                                               ),
                                               Text(
-                                                'Due: Nov 20, 2023',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'bna9pgfc' /* Due: Nov 20, 2023 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -501,7 +555,11 @@ class _StudentModuleAssignmentsWidgetState
                                                 onPressed: () {
                                                   print('Button pressed ...');
                                                 },
-                                                text: 'View Details',
+                                                text:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  '0molc7ln' /* View Details */,
+                                                ),
                                                 options: FFButtonOptions(
                                                   width: 120.0,
                                                   height: 40.0,
@@ -571,7 +629,9 @@ class _StudentModuleAssignmentsWidgetState
                                 size: 28.0,
                               ),
                               Text(
-                                'Dashboard',
+                                FFLocalizations.of(context).getText(
+                                  '8z0g9ued' /* Dashboard */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -594,7 +654,9 @@ class _StudentModuleAssignmentsWidgetState
                                 size: 28.0,
                               ),
                               Text(
-                                'Profile',
+                                FFLocalizations.of(context).getText(
+                                  'y5tch15y' /* Profile */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(

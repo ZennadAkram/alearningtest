@@ -67,7 +67,9 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Teacher Schedule',
+                            FFLocalizations.of(context).getText(
+                              'mhsgv6lg' /* Teacher Schedule */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .headlineMedium
                                 .override(
@@ -78,7 +80,9 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                 ),
                           ),
                           Text(
-                            'Courses, TD & TP Sessions',
+                            FFLocalizations.of(context).getText(
+                              'cia14zg6' /* Courses, TD & TP Sessions */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyLarge.override(
                                       fontFamily: 'Inter',
@@ -121,7 +125,9 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text(
-                                      'This Week\'s Schedule',
+                                      FFLocalizations.of(context).getText(
+                                        'ltl232ss' /* This Week's Schedule */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
@@ -173,7 +179,10 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Monday',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'fpl0bxfs' /* Monday */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .titleMedium
@@ -201,7 +210,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Web Development (TD)',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '2xd1tmml' /* Web Development (TD) */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -217,7 +230,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        '09:00 AM - 10:30 AM',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'eg5rdzaa' /* 09:00 AM - 10:30 AM */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -233,7 +250,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        'Room 201',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'pskz5n8n' /* Room 201 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -282,7 +303,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Database Systems (TP)',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'dl5lu8rg' /* Database Systems (TP) */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -298,7 +323,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        '02:00 PM - 04:00 PM',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'dhtlt3c3' /* 02:00 PM - 04:00 PM */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -314,7 +343,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        'Lab 105',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '36av92br' /* Lab 105 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -370,7 +403,10 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Wednesday',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'ldmoap75' /* Wednesday */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .titleMedium
@@ -398,7 +434,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Data Structures (TD)',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'gsbfr2b9' /* Data Structures (TD) */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -414,7 +454,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        '10:00 AM - 11:30 AM',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '1hyyqsxt' /* 10:00 AM - 11:30 AM */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -430,7 +474,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        'Room 305',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'esgxg1ct' /* Room 305 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -479,7 +527,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Algorithms (TP)',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '9cj7y6ob' /* Algorithms (TP) */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -495,7 +547,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        '03:00 PM - 05:00 PM',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'h2pjpf8n' /* 03:00 PM - 05:00 PM */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -511,7 +567,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        'Lab 202',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'vzr7gvh5' /* Lab 202 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -567,7 +627,10 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Friday',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'knecf1i1' /* Friday */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .titleMedium
@@ -595,7 +658,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Software Engineering (TD)',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '6zma26xl' /* Software Engineering (TD) */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -611,7 +678,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        '11:00 AM - 12:30 PM',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'lm078x9j' /* 11:00 AM - 12:30 PM */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -627,7 +698,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        'Room 401',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'flpxspxx' /* Room 401 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -676,7 +751,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Mobile App Development (TP)',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'kbsbnaa7' /* Mobile App Development (TP) */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -692,7 +771,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        '02:30 PM - 04:30 PM',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '3bjjlmlh' /* 02:30 PM - 04:30 PM */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -708,7 +791,11 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                                                 ),
                                                       ),
                                                       Text(
-                                                        'Lab 303',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'otq3drzv' /* Lab 303 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -773,7 +860,9 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Text(
-                                  'Upcoming Events',
+                                  FFLocalizations.of(context).getText(
+                                    'zk56c0vc' /* Upcoming Events */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
@@ -796,7 +885,9 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                           MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          'Department Meeting',
+                                          FFLocalizations.of(context).getText(
+                                            'dy2v0ks1' /* Department Meeting */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
@@ -808,7 +899,9 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                               ),
                                         ),
                                         Text(
-                                          'May 15, 2:00 PM',
+                                          FFLocalizations.of(context).getText(
+                                            'diqd4rd5' /* May 15, 2:00 PM */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -827,7 +920,9 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                           MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          'Exam Supervision',
+                                          FFLocalizations.of(context).getText(
+                                            'rd1ia0u6' /* Exam Supervision */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
@@ -839,7 +934,9 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                               ),
                                         ),
                                         Text(
-                                          'May 20, 9:00 AM',
+                                          FFLocalizations.of(context).getText(
+                                            'k8p9oskx' /* May 20, 9:00 AM */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -858,7 +955,9 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                           MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          'Research Presentation',
+                                          FFLocalizations.of(context).getText(
+                                            '21rco05b' /* Research Presentation */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
@@ -870,7 +969,9 @@ class _TeachertimeplateWidgetState extends State<TeachertimeplateWidget> {
                                               ),
                                         ),
                                         Text(
-                                          'May 25, 3:00 PM',
+                                          FFLocalizations.of(context).getText(
+                                            '4obsanr7' /* May 25, 3:00 PM */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(

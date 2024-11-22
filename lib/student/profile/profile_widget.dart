@@ -68,7 +68,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Student Profile',
+                          FFLocalizations.of(context).getText(
+                            '4atrmju0' /* Student Profile */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .headlineMedium
                               .override(
@@ -79,7 +81,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                               ),
                         ),
                         Text(
-                          'View and manage your profile information',
+                          FFLocalizations.of(context).getText(
+                            'cfp9bbbi' /* View and manage your profile i... */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyLarge.override(
                                     fontFamily: 'Inter',
@@ -142,7 +146,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                 ),
                               ),
                               Text(
-                                'Alex Johnson',
+                                FFLocalizations.of(context).getText(
+                                  '1ym6lc5d' /* Alex Johnson */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
@@ -154,7 +160,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     ),
                               ),
                               Text(
-                                'Computer Science Major',
+                                FFLocalizations.of(context).getText(
+                                  'lxzyvdnn' /* Computer Science Major */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -177,7 +185,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                       padding: const EdgeInsetsDirectional.fromSTEB(
                                           8.0, 16.0, 8.0, 16.0),
                                       child: Text(
-                                        '3.8 GPA',
+                                        FFLocalizations.of(context).getText(
+                                          'hmalkwm3' /* 3.8 GPA */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -197,7 +207,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                       padding: const EdgeInsetsDirectional.fromSTEB(
                                           8.0, 16.0, 8.0, 16.0),
                                       child: Text(
-                                        'Junior Year',
+                                        FFLocalizations.of(context).getText(
+                                          'xvdzpjyd' /* Junior Year */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -235,7 +247,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                'Personal Information',
+                                FFLocalizations.of(context).getText(
+                                  'q5qgj40w' /* Personal Information */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
@@ -252,7 +266,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Email',
+                                    FFLocalizations.of(context).getText(
+                                      '05ov92v7' /* Email */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -263,7 +279,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'alex.johnson@university.edu',
+                                    FFLocalizations.of(context).getText(
+                                      'pzs0njso' /* alex.johnson@university.edu */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -281,7 +299,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Student ID',
+                                    FFLocalizations.of(context).getText(
+                                      '7rkrwbrx' /* Student ID */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -292,7 +312,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'CS2023456',
+                                    FFLocalizations.of(context).getText(
+                                      'kmf5c9rk' /* CS2023456 */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -310,7 +332,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Date of Birth',
+                                    FFLocalizations.of(context).getText(
+                                      'y6014rws' /* Date of Birth */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -321,7 +345,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'May 15, 2002',
+                                    FFLocalizations.of(context).getText(
+                                      '097h891o' /* May 15, 2002 */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -358,7 +384,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                'App Settings',
+                                FFLocalizations.of(context).getText(
+                                  'bfu2lg49' /* App Settings */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
@@ -375,7 +403,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Notifications',
+                                    FFLocalizations.of(context).getText(
+                                      '15d9rs6i' /* Notifications */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -409,7 +439,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Dark Mode',
+                                    FFLocalizations.of(context).getText(
+                                      'u4bt0qm2' /* Dark Mode */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -443,7 +475,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Language',
+                                    FFLocalizations.of(context).getText(
+                                      'e5qjlmf7' /* Language */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -468,7 +502,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                             MainAxisAlignment.spaceBetween,
                                         children: [
                                           Text(
-                                            'English',
+                                            FFLocalizations.of(context).getText(
+                                              'xczxccjt' /* English */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
@@ -497,7 +533,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                       onPressed: () {
                         print('Button pressed ...');
                       },
-                      text: 'Edit Profile',
+                      text: FFLocalizations.of(context).getText(
+                        'wsqo0m26' /* Edit Profile */,
+                      ),
                       options: FFButtonOptions(
                         width: MediaQuery.sizeOf(context).width * 1.0,
                         height: 50.0,

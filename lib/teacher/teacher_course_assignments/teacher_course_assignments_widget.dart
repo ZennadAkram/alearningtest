@@ -86,7 +86,9 @@ class _TeacherCourseAssignmentsWidgetState
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Web Development Fundamentals',
+                            FFLocalizations.of(context).getText(
+                              '1ktf45ah' /* Web Development Fundamentals */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .headlineMedium
                                 .override(
@@ -97,7 +99,9 @@ class _TeacherCourseAssignmentsWidgetState
                                 ),
                           ),
                           Text(
-                            'Assignments',
+                            FFLocalizations.of(context).getText(
+                              'tnh72m6z' /* Assignments */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyLarge.override(
                                       fontFamily: 'Inter',
@@ -140,7 +144,9 @@ class _TeacherCourseAssignmentsWidgetState
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text(
-                                      'Add Practical Work',
+                                      FFLocalizations.of(context).getText(
+                                        'bantdaxk' /* Add Practical Work */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
@@ -174,7 +180,10 @@ class _TeacherCourseAssignmentsWidgetState
                                   autofocus: false,
                                   obscureText: false,
                                   decoration: InputDecoration(
-                                    labelText: 'PW Title',
+                                    labelText:
+                                        FFLocalizations.of(context).getText(
+                                      'l2g3svdw' /* PW Title */,
+                                    ),
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -234,7 +243,10 @@ class _TeacherCourseAssignmentsWidgetState
                                   autofocus: false,
                                   obscureText: false,
                                   decoration: InputDecoration(
-                                    labelText: 'Objectives',
+                                    labelText:
+                                        FFLocalizations.of(context).getText(
+                                      'gbvue9ho' /* Objectives */,
+                                    ),
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -294,7 +306,10 @@ class _TeacherCourseAssignmentsWidgetState
                                   autofocus: false,
                                   obscureText: false,
                                   decoration: InputDecoration(
-                                    labelText: 'Steps',
+                                    labelText:
+                                        FFLocalizations.of(context).getText(
+                                      'l1a6m04d' /* Steps */,
+                                    ),
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -357,7 +372,9 @@ class _TeacherCourseAssignmentsWidgetState
                                       onPressed: () {
                                         print('Button pressed ...');
                                       },
-                                      text: 'Attach Files',
+                                      text: FFLocalizations.of(context).getText(
+                                        'r74aczd8' /* Attach Files */,
+                                      ),
                                       options: FFButtonOptions(
                                         width: 150.0,
                                         height: 40.0,
@@ -385,7 +402,9 @@ class _TeacherCourseAssignmentsWidgetState
                                       onPressed: () {
                                         print('Button pressed ...');
                                       },
-                                      text: 'Publish',
+                                      text: FFLocalizations.of(context).getText(
+                                        'oiqdzhuf' /* Publish */,
+                                      ),
                                       options: FFButtonOptions(
                                         width: 120.0,
                                         height: 40.0,
@@ -436,7 +455,9 @@ class _TeacherCourseAssignmentsWidgetState
                               mainAxisAlignment: MainAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Published Assignments',
+                                  FFLocalizations.of(context).getText(
+                                    '74irnj7b' /* Published Assignments */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
@@ -480,7 +501,10 @@ class _TeacherCourseAssignmentsWidgetState
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Lab 1: Introduction to Python',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '3i1mg7bv' /* Lab 1: Introduction to Python */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .titleMedium
@@ -496,7 +520,10 @@ class _TeacherCourseAssignmentsWidgetState
                                                         ),
                                                   ),
                                                   Text(
-                                                    'Learn the basics of Python programming through hands-on exercises.',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'u7qftv5n' /* Learn the basics of Python pro... */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -588,7 +615,10 @@ class _TeacherCourseAssignmentsWidgetState
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Lab 2: Data Structures in C++',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'mnggu0z6' /* Lab 2: Data Structures in C++ */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .titleMedium
@@ -604,7 +634,10 @@ class _TeacherCourseAssignmentsWidgetState
                                                         ),
                                                   ),
                                                   Text(
-                                                    'Implement and analyze various data structures using C++.',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      's7jqfb97' /* Implement and analyze various ... */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -700,7 +733,10 @@ class _TeacherCourseAssignmentsWidgetState
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    'Lab 3: Web Development Basics',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '1wc385jz' /* Lab 3: Web Development Basics */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .titleMedium
@@ -716,7 +752,10 @@ class _TeacherCourseAssignmentsWidgetState
                                                         ),
                                                   ),
                                                   Text(
-                                                    'Create a simple website using HTML, CSS, and JavaScript.',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'fq15o8ug' /* Create a simple website using ... */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -821,7 +860,9 @@ class _TeacherCourseAssignmentsWidgetState
                                 size: 28.0,
                               ),
                               Text(
-                                'Dashboard',
+                                FFLocalizations.of(context).getText(
+                                  'uftiolsk' /* Dashboard */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(
@@ -844,7 +885,9 @@ class _TeacherCourseAssignmentsWidgetState
                                 size: 28.0,
                               ),
                               Text(
-                                'Profile',
+                                FFLocalizations.of(context).getText(
+                                  '2rhdie84' /* Profile */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodySmall
                                     .override(

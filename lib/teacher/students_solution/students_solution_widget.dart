@@ -68,7 +68,9 @@ class _StudentsSolutionWidgetState extends State<StudentsSolutionWidget> {
               Padding(
                 padding: const EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 12.0, 0.0),
                 child: Text(
-                  'Student Solution',
+                  FFLocalizations.of(context).getText(
+                    'f3clleir' /* Student Solution */,
+                  ),
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
                         fontFamily: 'Inter Tight',
                         letterSpacing: 0.0,
@@ -90,7 +92,9 @@ class _StudentsSolutionWidgetState extends State<StudentsSolutionWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Solution Text:',
+                          FFLocalizations.of(context).getText(
+                            '88fwx0rx' /* Solution Text: */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Inter',
@@ -99,7 +103,9 @@ class _StudentsSolutionWidgetState extends State<StudentsSolutionWidget> {
                                   ),
                         ),
                         Text(
-                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in velit vel augue bibendum fringilla. Sed euismod, nunc sit amet aliquam lacinia, nisl nisl aliquam nisl, nec aliquam nisl nisl sit amet nisl.',
+                          FFLocalizations.of(context).getText(
+                            'k9se2jbr' /* Lorem ipsum dolor sit amet, co... */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodySmall.override(
                                     fontFamily: 'Inter',
@@ -126,7 +132,9 @@ class _StudentsSolutionWidgetState extends State<StudentsSolutionWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Attached Files:',
+                          FFLocalizations.of(context).getText(
+                            '22m4h5u0' /* Attached Files: */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Inter',
@@ -143,7 +151,9 @@ class _StudentsSolutionWidgetState extends State<StudentsSolutionWidget> {
                               size: 20.0,
                             ),
                             Text(
-                              'solution.pdf',
+                              FFLocalizations.of(context).getText(
+                                'vxf5jssb' /* solution.pdf */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodySmall
                                   .override(
@@ -162,7 +172,9 @@ class _StudentsSolutionWidgetState extends State<StudentsSolutionWidget> {
                               size: 20.0,
                             ),
                             Text(
-                              'code_snippet.py',
+                              FFLocalizations.of(context).getText(
+                                'odetnshl' /* code_snippet.py */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodySmall
                                   .override(
@@ -181,7 +193,9 @@ class _StudentsSolutionWidgetState extends State<StudentsSolutionWidget> {
                               size: 20.0,
                             ),
                             Text(
-                              'diagram.jpg',
+                              FFLocalizations.of(context).getText(
+                                '2enonz3k' /* diagram.jpg */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodySmall
                                   .override(
@@ -206,7 +220,9 @@ class _StudentsSolutionWidgetState extends State<StudentsSolutionWidget> {
                       onPressed: () {
                         print('Button pressed ...');
                       },
-                      text: 'Download All',
+                      text: FFLocalizations.of(context).getText(
+                        'sobawsqt' /* Download All */,
+                      ),
                       options: FFButtonOptions(
                         width: 120.0,
                         height: 40.0,
@@ -229,7 +245,9 @@ class _StudentsSolutionWidgetState extends State<StudentsSolutionWidget> {
                       onPressed: () {
                         print('Button pressed ...');
                       },
-                      text: 'Grade Solution',
+                      text: FFLocalizations.of(context).getText(
+                        '4f2v5vv1' /* Grade Solution */,
+                      ),
                       options: FFButtonOptions(
                         width: 120.0,
                         height: 40.0,

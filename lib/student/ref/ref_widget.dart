@@ -75,7 +75,9 @@ class _RefWidgetState extends State<RefWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Assignment: Advanced Calculus',
+                          FFLocalizations.of(context).getText(
+                            'odtqioaa' /* Assignment: Advanced Calculus */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .override(
@@ -84,7 +86,9 @@ class _RefWidgetState extends State<RefWidget> {
                               ),
                         ),
                         Text(
-                          'Due: May 15, 2023',
+                          FFLocalizations.of(context).getText(
+                            'yfde9i53' /* Due: May 15, 2023 */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -127,7 +131,9 @@ class _RefWidgetState extends State<RefWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Calculus_Assignment_3.pdf',
+                                FFLocalizations.of(context).getText(
+                                  'egurmylc' /* Calculus_Assignment_3.pdf */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -136,7 +142,9 @@ class _RefWidgetState extends State<RefWidget> {
                                     ),
                               ),
                               Text(
-                                '2.3 MB',
+                                FFLocalizations.of(context).getText(
+                                  'sxcg3yja' /* 2.3 MB */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .labelSmall
                                     .override(
@@ -153,7 +161,9 @@ class _RefWidgetState extends State<RefWidget> {
                           onPressed: () {
                             print('Button pressed ...');
                           },
-                          text: 'Download',
+                          text: FFLocalizations.of(context).getText(
+                            '68cxj3q1' /* Download */,
+                          ),
                           options: FFButtonOptions(
                             width: 100.0,
                             height: 36.0,
@@ -181,7 +191,9 @@ class _RefWidgetState extends State<RefWidget> {
               Padding(
                 padding: const EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 12.0, 0.0),
                 child: Text(
-                  'Helpful Resources:',
+                  FFLocalizations.of(context).getText(
+                    'n53ar7te' /* Helpful Resources: */,
+                  ),
                   style: FlutterFlowTheme.of(context).titleSmall.override(
                         fontFamily: 'Inter Tight',
                         letterSpacing: 0.0,
@@ -211,7 +223,9 @@ class _RefWidgetState extends State<RefWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Video Tutorial: Solving Complex Integrals',
+                                FFLocalizations.of(context).getText(
+                                  'euiw7zu8' /* Video Tutorial: Solving Comple... */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -220,7 +234,9 @@ class _RefWidgetState extends State<RefWidget> {
                                     ),
                               ),
                               Text(
-                                'YouTube - MathMaster101',
+                                FFLocalizations.of(context).getText(
+                                  'hzn97wgo' /* YouTube - MathMaster101 */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .labelSmall
                                     .override(
@@ -266,7 +282,9 @@ class _RefWidgetState extends State<RefWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Textbook: Calculus - Early Transcendentals',
+                                FFLocalizations.of(context).getText(
+                                  'v9d665g8' /* Textbook: Calculus - Early Tra... */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -275,7 +293,9 @@ class _RefWidgetState extends State<RefWidget> {
                                     ),
                               ),
                               Text(
-                                'Chapter 7, Pages 342-350',
+                                FFLocalizations.of(context).getText(
+                                  'axhopgjp' /* Chapter 7, Pages 342-350 */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .labelSmall
                                     .override(

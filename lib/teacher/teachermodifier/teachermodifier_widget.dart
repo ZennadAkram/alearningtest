@@ -70,7 +70,9 @@ class _TeachermodifierWidgetState extends State<TeachermodifierWidget> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'My Courses',
+                    FFLocalizations.of(context).getText(
+                      'gz74ay1r' /* My Courses */,
+                    ),
                     style: FlutterFlowTheme.of(context).headlineSmall.override(
                           fontFamily: 'Inter Tight',
                           letterSpacing: 0.0,
@@ -80,7 +82,9 @@ class _TeachermodifierWidgetState extends State<TeachermodifierWidget> {
                     onPressed: () {
                       print('Button pressed ...');
                     },
-                    text: 'Add Course',
+                    text: FFLocalizations.of(context).getText(
+                      '4ksxedjw' /* Add Course */,
+                    ),
                     options: FFButtonOptions(
                       height: 40.0,
                       padding:
@@ -140,7 +144,9 @@ class _TeachermodifierWidgetState extends State<TeachermodifierWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Advanced Biology',
+                                      FFLocalizations.of(context).getText(
+                                        'rosvvkqp' /* Advanced Biology */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
@@ -150,7 +156,9 @@ class _TeachermodifierWidgetState extends State<TeachermodifierWidget> {
                                           ),
                                     ),
                                     Text(
-                                      'Grade 11 • 28 Students',
+                                      FFLocalizations.of(context).getText(
+                                        '4b574s5k' /* Grade 11 • 28 Students */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodySmall
                                           .override(
@@ -219,7 +227,9 @@ class _TeachermodifierWidgetState extends State<TeachermodifierWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Calculus I',
+                                      FFLocalizations.of(context).getText(
+                                        'ul9mplfs' /* Calculus I */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
@@ -229,7 +239,9 @@ class _TeachermodifierWidgetState extends State<TeachermodifierWidget> {
                                           ),
                                     ),
                                     Text(
-                                      'Grade 12 • 22 Students',
+                                      FFLocalizations.of(context).getText(
+                                        'teo29l40' /* Grade 12 • 22 Students */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodySmall
                                           .override(
@@ -298,7 +310,9 @@ class _TeachermodifierWidgetState extends State<TeachermodifierWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'World History',
+                                      FFLocalizations.of(context).getText(
+                                        'gbirld7p' /* World History */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
@@ -308,7 +322,9 @@ class _TeachermodifierWidgetState extends State<TeachermodifierWidget> {
                                           ),
                                     ),
                                     Text(
-                                      'Grade 10 • 30 Students',
+                                      FFLocalizations.of(context).getText(
+                                        'hmmsj0np' /* Grade 10 • 30 Students */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodySmall
                                           .override(

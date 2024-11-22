@@ -113,7 +113,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Welcome, Admin',
+                            FFLocalizations.of(context).getText(
+                              'sl4drs4n' /* Welcome, Admin */,
+                            ),
                             style: FlutterFlowTheme.of(context)
                                 .headlineMedium
                                 .override(
@@ -124,7 +126,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                 ),
                           ),
                           Text(
-                            'Your learning journey starts here',
+                            FFLocalizations.of(context).getText(
+                              'yiz9lybp' /* Your learning journey starts h... */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyLarge.override(
                                       fontFamily: 'Inter',
@@ -177,7 +181,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                         size: 32.0,
                                       ),
                                       Text(
-                                        'Total Students',
+                                        FFLocalizations.of(context).getText(
+                                          'qk4ams2q' /* Total Students */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .headlineSmall
                                             .override(
@@ -189,7 +195,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             ),
                                       ),
                                       Text(
-                                        '1,234',
+                                        FFLocalizations.of(context).getText(
+                                          '0jsmoxh4' /* 1,234 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .displayMedium
                                             .override(
@@ -237,7 +245,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                         size: 32.0,
                                       ),
                                       Text(
-                                        'Submissions',
+                                        FFLocalizations.of(context).getText(
+                                          'bv9zareg' /* Submissions */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .headlineSmall
                                             .override(
@@ -249,7 +259,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             ),
                                       ),
                                       Text(
-                                        '5,678',
+                                        FFLocalizations.of(context).getText(
+                                          'gdxtxn0n' /* 5,678 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .displayMedium
                                             .override(
@@ -297,7 +309,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                         size: 32.0,
                                       ),
                                       Text(
-                                        'Feedback Given',
+                                        FFLocalizations.of(context).getText(
+                                          '6durrb4v' /* Feedback Given */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .headlineSmall
                                             .override(
@@ -309,7 +323,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             ),
                                       ),
                                       Text(
-                                        '3,456',
+                                        FFLocalizations.of(context).getText(
+                                          '2k9mz343' /* 3,456 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .displayMedium
                                             .override(
@@ -340,7 +356,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(
-                          'User Management',
+                          FFLocalizations.of(context).getText(
+                            'ehmr62lv' /* User Management */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .override(
@@ -366,7 +384,10 @@ class _AdminWidgetState extends State<AdminWidget> {
                                   autofocus: false,
                                   obscureText: false,
                                   decoration: InputDecoration(
-                                    hintText: 'Search users...',
+                                    hintText:
+                                        FFLocalizations.of(context).getText(
+                                      'j2zutll9' /* Search users... */,
+                                    ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -425,9 +446,13 @@ class _AdminWidgetState extends State<AdminWidget> {
                                 borderRadius: BorderRadius.circular(8.0),
                               ),
                               child: FlutterFlowChoiceChips(
-                                options: const [
-                                  ChipData('Active'),
-                                  ChipData('Inactive')
+                                options: [
+                                  ChipData(FFLocalizations.of(context).getText(
+                                    'r6thxk5x' /* Active */,
+                                  )),
+                                  ChipData(FFLocalizations.of(context).getText(
+                                    'osawybwc' /* Inactive */,
+                                  ))
                                 ],
                                 onChanged: (val) => safeSetState(() => _model
                                     .choiceChipsValue1 = val?.firstOrNull),
@@ -502,7 +527,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        'Name',
+                                        FFLocalizations.of(context).getText(
+                                          '1cpij5yv' /* Name */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -512,7 +539,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             ),
                                       ),
                                       Text(
-                                        'Email',
+                                        FFLocalizations.of(context).getText(
+                                          'ghranu55' /* Email */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -522,7 +551,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             ),
                                       ),
                                       Text(
-                                        'Role',
+                                        FFLocalizations.of(context).getText(
+                                          't52u0y34' /* Role */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -532,7 +563,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             ),
                                       ),
                                       Text(
-                                        'Last Login',
+                                        FFLocalizations.of(context).getText(
+                                          'ftem16um' /* Last Login */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -542,7 +575,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             ),
                                       ),
                                       Text(
-                                        'Actions',
+                                        FFLocalizations.of(context).getText(
+                                          'pi9t6mx5' /* Actions */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -565,7 +600,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             MainAxisAlignment.spaceBetween,
                                         children: [
                                           Text(
-                                            'John Doe',
+                                            FFLocalizations.of(context).getText(
+                                              'g909hkvf' /* John Doe */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -574,7 +611,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            'john@example.com',
+                                            FFLocalizations.of(context).getText(
+                                              '2d1wxu5y' /* john@example.com */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -595,7 +634,10 @@ class _AdminWidgetState extends State<AdminWidget> {
                                               child: Padding(
                                                 padding: const EdgeInsets.all(8.0),
                                                 child: Text(
-                                                  'Student',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '3ujg1ecz' /* Student */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodySmall
@@ -610,7 +652,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             ),
                                           ),
                                           Text(
-                                            '2023-06-15',
+                                            FFLocalizations.of(context).getText(
+                                              'rxydan3k' /* 2023-06-15 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -661,7 +705,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             MainAxisAlignment.spaceBetween,
                                         children: [
                                           Text(
-                                            'Jane Smith',
+                                            FFLocalizations.of(context).getText(
+                                              'k1trezk3' /* Jane Smith */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -670,7 +716,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            'jane@example.com',
+                                            FFLocalizations.of(context).getText(
+                                              '0f79wo7e' /* jane@example.com */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -691,7 +739,10 @@ class _AdminWidgetState extends State<AdminWidget> {
                                               child: Padding(
                                                 padding: const EdgeInsets.all(8.0),
                                                 child: Text(
-                                                  'Teacher',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'y3owj2pl' /* Teacher */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodySmall
@@ -706,7 +757,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             ),
                                           ),
                                           Text(
-                                            '2023-06-14',
+                                            FFLocalizations.of(context).getText(
+                                              'dghyr862' /* 2023-06-14 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -771,7 +824,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(
-                          'Add User',
+                          FFLocalizations.of(context).getText(
+                            'lyqrnixv' /* Add User */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .override(
@@ -805,7 +860,10 @@ class _AdminWidgetState extends State<AdminWidget> {
                                     autofocus: false,
                                     obscureText: false,
                                     decoration: InputDecoration(
-                                      labelText: 'Full Name',
+                                      labelText:
+                                          FFLocalizations.of(context).getText(
+                                        '7b2433h8' /* Full Name */,
+                                      ),
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -870,7 +928,10 @@ class _AdminWidgetState extends State<AdminWidget> {
                                     autofocus: false,
                                     obscureText: false,
                                     decoration: InputDecoration(
-                                      labelText: 'Email Address',
+                                      labelText:
+                                          FFLocalizations.of(context).getText(
+                                        'bu3yx33i' /* Email Address */,
+                                      ),
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -951,7 +1012,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Role',
+                                            FFLocalizations.of(context).getText(
+                                              '851pog2g' /* Role */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -963,10 +1026,22 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                 ),
                                           ),
                                           FlutterFlowChoiceChips(
-                                            options: const [
-                                              ChipData('Administrator'),
-                                              ChipData('Teacher'),
-                                              ChipData('Student')
+                                            options: [
+                                              ChipData(
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                'cw7r6b26' /* Administrator */,
+                                              )),
+                                              ChipData(
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                'qks7j5gw' /* Teacher */,
+                                              )),
+                                              ChipData(
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                'mung81yn' /* Student */,
+                                              ))
                                             ],
                                             onChanged: (val) => safeSetState(
                                                 () => _model.choiceChipsValue2 =
@@ -1053,7 +1128,10 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             },
                                           );
                                         },
-                                        text: 'Save User',
+                                        text:
+                                            FFLocalizations.of(context).getText(
+                                          'urute01i' /* Save User */,
+                                        ),
                                         options: FFButtonOptions(
                                           width:
                                               MediaQuery.sizeOf(context).width *
@@ -1124,7 +1202,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Create Academic Module',
+                                  FFLocalizations.of(context).getText(
+                                    '09xutvnb' /* Create Academic Module */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .headlineMedium
                                       .override(
@@ -1137,7 +1217,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Module Details',
+                                      FFLocalizations.of(context).getText(
+                                        'p5qk5c5t' /* Module Details */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .titleMedium
                                           .override(
@@ -1153,7 +1235,10 @@ class _AdminWidgetState extends State<AdminWidget> {
                                         autofocus: false,
                                         obscureText: false,
                                         decoration: InputDecoration(
-                                          labelText: 'Module Name',
+                                          labelText: FFLocalizations.of(context)
+                                              .getText(
+                                            'ryhzu5cl' /* Module Name */,
+                                          ),
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
@@ -1217,7 +1302,10 @@ class _AdminWidgetState extends State<AdminWidget> {
                                         autofocus: false,
                                         obscureText: false,
                                         decoration: InputDecoration(
-                                          labelText: 'Module Description',
+                                          labelText: FFLocalizations.of(context)
+                                              .getText(
+                                            'q8xnzj4c' /* Module Description */,
+                                          ),
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
                                                   .bodyLarge
@@ -1277,11 +1365,23 @@ class _AdminWidgetState extends State<AdminWidget> {
                                     SizedBox(
                                       width: double.infinity,
                                       child: FlutterFlowChoiceChips(
-                                        options: const [
-                                          ChipData('Software Engineering'),
-                                          ChipData('Civil Engineering'),
-                                          ChipData('Mechanical Engineering'),
-                                          ChipData('Electrical Engineering')
+                                        options: [
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            'riu6v3m0' /* Software Engineering */,
+                                          )),
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            'w3m0vwy7' /* Civil Engineering */,
+                                          )),
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            'w1bv46bi' /* Mechanical Engineering */,
+                                          )),
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            'rnt82tlc' /* Electrical Engineering */,
+                                          ))
                                         ],
                                         onChanged: (val) => safeSetState(() =>
                                             _model.choiceChipsValue3 =
@@ -1349,7 +1449,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Assign Teachers',
+                                      FFLocalizations.of(context).getText(
+                                        's14qp5hd' /* Assign Teachers */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .titleMedium
                                           .override(
@@ -1369,12 +1471,27 @@ class _AdminWidgetState extends State<AdminWidget> {
                                         ),
                                       ),
                                       child: FlutterFlowChoiceChips(
-                                        options: const [
-                                          ChipData('Dr. Smith'),
-                                          ChipData('Prof. Johnson'),
-                                          ChipData('Dr. Williams'),
-                                          ChipData('Prof. Brown'),
-                                          ChipData('Dr. Davis')
+                                        options: [
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            '5ztyd7lj' /* Dr. Smith */,
+                                          )),
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            '8e3jn7yi' /* Prof. Johnson */,
+                                          )),
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            'veio65le' /* Dr. Williams */,
+                                          )),
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            'hd9e98yn' /* Prof. Brown */,
+                                          )),
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            'e5px2ep6' /* Dr. Davis */,
+                                          ))
                                         ],
                                         onChanged: (val) => safeSetState(() =>
                                             _model.choiceChipsValue4 =
@@ -1442,7 +1559,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Student Year Assignment',
+                                      FFLocalizations.of(context).getText(
+                                        'qv8ij6hh' /* Student Year Assignment */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .titleMedium
                                           .override(
@@ -1453,11 +1572,23 @@ class _AdminWidgetState extends State<AdminWidget> {
                                     SizedBox(
                                       width: double.infinity,
                                       child: FlutterFlowChoiceChips(
-                                        options: const [
-                                          ChipData('Year 1'),
-                                          ChipData('Year 2'),
-                                          ChipData('Year 3'),
-                                          ChipData('Year 4')
+                                        options: [
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            '7i6tg2f5' /* Year 1 */,
+                                          )),
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            'o5i6sgws' /* Year 2 */,
+                                          )),
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            '920ljnsy' /* Year 3 */,
+                                          )),
+                                          ChipData(FFLocalizations.of(context)
+                                              .getText(
+                                            'hl3x0kuo' /* Year 4 */,
+                                          ))
                                         ],
                                         onChanged: (val) => safeSetState(() =>
                                             _model.choiceChipsValue5 =
@@ -1525,7 +1656,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Class Schedule Setup',
+                                      FFLocalizations.of(context).getText(
+                                        '1fnyfk75' /* Class Schedule Setup */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .titleMedium
                                           .override(
@@ -1537,7 +1670,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                       mainAxisSize: MainAxisSize.min,
                                       children: [
                                         Text(
-                                          'Lecture',
+                                          FFLocalizations.of(context).getText(
+                                            '58wk6pde' /* Lecture */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -1552,12 +1687,32 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             Expanded(
                                               child: Container(
                                                 child: FlutterFlowChoiceChips(
-                                                  options: const [
-                                                    ChipData('Monday'),
-                                                    ChipData('Tuesday'),
-                                                    ChipData('Wednesday'),
-                                                    ChipData('Thursday'),
-                                                    ChipData('Friday')
+                                                  options: [
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'xzcapld1' /* Monday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'f4ha2i1t' /* Tuesday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      '5mbf4mfb' /* Wednesday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'or569fgz' /* Thursday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'aqw5sxyt' /* Friday */,
+                                                    ))
                                                   ],
                                                   onChanged: (val) =>
                                                       safeSetState(() => _model
@@ -1639,7 +1794,11 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                 autofocus: false,
                                                 obscureText: false,
                                                 decoration: InputDecoration(
-                                                  labelText: 'Start Time',
+                                                  labelText: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    '4gw4kapc' /* Start Time */,
+                                                  ),
                                                   hintStyle:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -1715,7 +1874,11 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                 autofocus: false,
                                                 obscureText: false,
                                                 decoration: InputDecoration(
-                                                  labelText: 'End Time',
+                                                  labelText: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    'i90r5rpi' /* End Time */,
+                                                  ),
                                                   hintStyle:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -1792,7 +1955,11 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
-                                              labelText: 'Location',
+                                              labelText:
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                'v4mutjms' /* Location */,
+                                              ),
                                               hintStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
@@ -1854,7 +2021,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                       mainAxisSize: MainAxisSize.min,
                                       children: [
                                         Text(
-                                          'Tutorial (TD)',
+                                          FFLocalizations.of(context).getText(
+                                            'dh1svfke' /* Tutorial (TD) */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -1869,12 +2038,32 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             Expanded(
                                               child: Container(
                                                 child: FlutterFlowChoiceChips(
-                                                  options: const [
-                                                    ChipData('Monday'),
-                                                    ChipData('Tuesday'),
-                                                    ChipData('Wednesday'),
-                                                    ChipData('Thursday'),
-                                                    ChipData('Friday')
+                                                  options: [
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'e1zghw78' /* Monday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'idycmgqx' /* Tuesday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'yzb1czxt' /* Wednesday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'mrqg3zzj' /* Thursday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      '0nlia8w0' /* Friday */,
+                                                    ))
                                                   ],
                                                   onChanged: (val) =>
                                                       safeSetState(() => _model
@@ -1956,7 +2145,11 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                 autofocus: false,
                                                 obscureText: false,
                                                 decoration: InputDecoration(
-                                                  labelText: 'Start Time',
+                                                  labelText: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    '0ngbq9gb' /* Start Time */,
+                                                  ),
                                                   hintStyle:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -2032,7 +2225,11 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                 autofocus: false,
                                                 obscureText: false,
                                                 decoration: InputDecoration(
-                                                  labelText: 'End Time',
+                                                  labelText: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    'f1lcj6ba' /* End Time */,
+                                                  ),
                                                   hintStyle:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -2109,7 +2306,11 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
-                                              labelText: 'Location',
+                                              labelText:
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                'u0bvoz2d' /* Location */,
+                                              ),
                                               hintStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
@@ -2171,7 +2372,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                       mainAxisSize: MainAxisSize.min,
                                       children: [
                                         Text(
-                                          'Practical Lab (TP)',
+                                          FFLocalizations.of(context).getText(
+                                            '11ou3nz4' /* Practical Lab (TP) */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -2186,12 +2389,32 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             Expanded(
                                               child: Container(
                                                 child: FlutterFlowChoiceChips(
-                                                  options: const [
-                                                    ChipData('Monday'),
-                                                    ChipData('Tuesday'),
-                                                    ChipData('Wednesday'),
-                                                    ChipData('Thursday'),
-                                                    ChipData('Friday')
+                                                  options: [
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'li9il3x7' /* Monday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'a5qv3usp' /* Tuesday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'upugj9k5' /* Wednesday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'bwnfoj5i' /* Thursday */,
+                                                    )),
+                                                    ChipData(FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'm9d8v2e6' /* Friday */,
+                                                    ))
                                                   ],
                                                   onChanged: (val) =>
                                                       safeSetState(() => _model
@@ -2273,7 +2496,11 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                 autofocus: false,
                                                 obscureText: false,
                                                 decoration: InputDecoration(
-                                                  labelText: 'Start Time',
+                                                  labelText: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    '8s9gxz43' /* Start Time */,
+                                                  ),
                                                   hintStyle:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -2349,7 +2576,11 @@ class _AdminWidgetState extends State<AdminWidget> {
                                                 autofocus: false,
                                                 obscureText: false,
                                                 decoration: InputDecoration(
-                                                  labelText: 'End Time',
+                                                  labelText: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    'wbj0wudy' /* End Time */,
+                                                  ),
                                                   hintStyle:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -2426,7 +2657,11 @@ class _AdminWidgetState extends State<AdminWidget> {
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
-                                              labelText: 'Location',
+                                              labelText:
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                'rns6lo3s' /* Location */,
+                                              ),
                                               hintStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
@@ -2495,7 +2730,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                       onPressed: () {
                                         print('Button pressed ...');
                                       },
-                                      text: 'Preview',
+                                      text: FFLocalizations.of(context).getText(
+                                        'duvwwd4k' /* Preview */,
+                                      ),
                                       options: FFButtonOptions(
                                         width: 150.0,
                                         height: 50.0,
@@ -2524,7 +2761,9 @@ class _AdminWidgetState extends State<AdminWidget> {
                                       onPressed: () {
                                         print('Button pressed ...');
                                       },
-                                      text: 'Save Module',
+                                      text: FFLocalizations.of(context).getText(
+                                        'z6wd1qgp' /* Save Module */,
+                                      ),
                                       options: FFButtonOptions(
                                         width: 150.0,
                                         height: 50.0,

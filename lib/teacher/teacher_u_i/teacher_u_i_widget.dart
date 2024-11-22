@@ -74,7 +74,9 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Teacher Dashboard',
+                          FFLocalizations.of(context).getText(
+                            'vlr4ur7q' /* Teacher Dashboard */,
+                          ),
                           style: FlutterFlowTheme.of(context)
                               .headlineMedium
                               .override(
@@ -85,7 +87,9 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                               ),
                         ),
                         Text(
-                          'Manage your  and student submissions',
+                          FFLocalizations.of(context).getText(
+                            'c1dw4lhy' /* Manage your  and student submi... */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyLarge.override(
                                     fontFamily: 'Inter',
@@ -127,7 +131,9 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              'My Courses',
+                              FFLocalizations.of(context).getText(
+                                'tk1l8jto' /* My Courses */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
@@ -185,7 +191,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'Advanced Biology',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '2zb64s4p' /* Advanced Biology */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyLarge
@@ -197,7 +206,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Grade 11 • 28 Students',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '6wlqqybd' /* Grade 11 • 28 Students */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -277,7 +289,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'Calculus I',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'u2t993wn' /* Calculus I */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyLarge
@@ -289,7 +304,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Grade 12 • 22 Students',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'e8dvioy7' /* Grade 12 • 22 Students */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -369,7 +387,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'World History',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'oc23q0k8' /* World History */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyLarge
@@ -381,7 +402,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Grade 10 • 30 Students',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '38gtgxot' /* Grade 10 • 30 Students */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -456,7 +480,9 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Students Submessions',
+                                    FFLocalizations.of(context).getText(
+                                      'mo0cx6sw' /* Students Submessions */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall
                                         .override(
@@ -471,7 +497,9 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                     onPressed: () {
                                       print('Button pressed ...');
                                     },
-                                    text: 'View All',
+                                    text: FFLocalizations.of(context).getText(
+                                      'wvxj8wll' /* View All */,
+                                    ),
                                     options: FFButtonOptions(
                                       width: 100.0,
                                       height: 40.0,
@@ -501,7 +529,9 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Filter by:',
+                                    FFLocalizations.of(context).getText(
+                                      'skzeocld' /* Filter by: */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -526,7 +556,9 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                             MainAxisAlignment.spaceBetween,
                                         children: [
                                           Text(
-                                            'All Modules',
+                                            FFLocalizations.of(context).getText(
+                                              'znvwn5p5' /* All Modules */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
@@ -573,7 +605,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'John Doe',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'e5r4g1p0' /* John Doe */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -588,7 +623,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Intro to Programming - PW1',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'bkqdo44g' /* Intro to Programming - PW1 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -612,7 +650,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                               padding: const EdgeInsetsDirectional
                                                   .fromSTEB(4.0, 8.0, 4.0, 8.0),
                                               child: Text(
-                                                'Submitted',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'xidv3dq7' /* Submitted */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -650,7 +691,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'Jane Smith',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '1tirpq6o' /* Jane Smith */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
@@ -665,7 +709,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Web Dev Fundamentals - PW2',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '9gnht2at' /* Web Dev Fundamentals - PW2 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -689,7 +736,10 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                                               padding: const EdgeInsetsDirectional
                                                   .fromSTEB(4.0, 8.0, 4.0, 8.0),
                                               child: Text(
-                                                'Late',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '5zxy46so' /* Late */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
@@ -742,7 +792,9 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                               size: 28.0,
                             ),
                             Text(
-                              'Dashboard',
+                              FFLocalizations.of(context).getText(
+                                'xsfsbrhp' /* Dashboard */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodySmall
                                   .override(
@@ -763,7 +815,9 @@ class _TeacherUIWidgetState extends State<TeacherUIWidget> {
                               size: 28.0,
                             ),
                             Text(
-                              'Profile',
+                              FFLocalizations.of(context).getText(
+                                '8ku056ld' /* Profile */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodySmall
                                   .override(
